@@ -1,0 +1,2 @@
+# Bus Application
+A simple web application that will display whether school buses have arrived at, are en-route to, or departing from a school. It will also display any notices that bus administrators need to post. The website will be easily accessible to all students.
