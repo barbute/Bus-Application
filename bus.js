@@ -12,13 +12,14 @@ const BusColor = Object.freeze(
     }
 )
 
-const Bus = {
-    number: 0,
-    status: Status.ENROUTE,
-    notice: "NONE",
-    color: BusColor.YELLOW,
-    linked: false,
-    linkedTo: -1
-}
+let number = 0;
+let status = Status.ENROUTE;
+let notice = "NONE";
+let color = BusColor.YELLOWl;
+let linked = false;
+let linkedTo = -1;
 
-var busList = [];
+function setLinked(busLinkedTo) {
+    linked = true;
+    linkedTo = busLinkedTo;
+}

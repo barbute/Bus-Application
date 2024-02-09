@@ -1,0 +1,65 @@
+:root {
+    --color-background: #F0F0F0;
+    --color-background-section: #FFFFFF;
+
+    --color-background-element: #EEEEEE;
+    --color-background-clock: #2A2A2A;
+    --color-background-listing: #2A2A2A;
+
+    --color-red: #CA4747;
+    --color-yellow: #F2994B;
+    --color-green: #45BF70;
+
+    --color-text-normal: #000000;
+    --color-text-light: #FFFFFF;
+    --color-text-gray: #C1C1C1;
+
+    --font-normal: JetBrainsMonoRegular;
+    --border-radius: 10.0px;
+}
+
+@font-face {
+    font-family: JetBrainsMonoRegular;
+    src: url(assets/fonts/JetBrainsMono-Regular.woff2);
+}
+
+body {
+    margin: 0.0px;
+    padding: 0.0px;
+
+    background-color: var(--color-background);
+
+    font-family: var(--font-normal);
+}
+
+.content {
+    margin: 5% 5%;
+    padding: 0.0px;
+}
+
+#bus-list {
+    display: flex;
+    flex-direction: row;
+
+    width: 20vw;
+
+    background-color: var(--color-background-section);
+}
+
+#bus-column {
+    display: flex;
+    flex-direction: column;
+
+    height: 100.0%;
+}
+
+#bus-list-header {
+    background-color: var(--color-background-listing);
+
+    color: var(--color-text-light);
+    font-size: small;
+}
+
+#bus-listing {
+
+}
