@@ -6,24 +6,17 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Bus Application</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js" defer></script>
+        <script src="scripts/main.js" type="module" defer></script>
     </head>
     <body>
-        <div class="content">
-            <div id="bus-list">
-                <div id="bus-column1">
-                    <div id="bus-list-header">
-                        <h1>BUS #</h1>
-                    </div>
-                    <div id="bus-listings"></div>
+        <div class="container">
+            <div class="bus-list">
+                <div class="bus-list-header">
+                    <div id="bus-list-header-num">BUS #</div>
+                    <div id="bus-list-header-status">STATUS</div>
                 </div>
-                <div id="bus-column2">
-                    <div id="bus-list-header">
-                        <h1>BUS #</h1>
-                    </div>
-                    <div id="bust-listing"></div>
-                </div>
-            </div>
+                <div class="bus-list-items-container" id="list-container-1"></div>
+            <div>
         </div>
     </body>
 </html>
