@@ -25,8 +25,16 @@ export let BusList = [
         number: 78,
         status: Status.ENROUTE,
         notice: "NONE",
+        color: BusColor.RED,
+        linked: false,
+        linkedTo: -1
+    },
+    {
+        number: 100,
+        status: Status.DEPARTED,
+        notice: "NONE",
         color: BusColor.YELLOW,
         linked: false,
         linkedTo: -1
-    }
+    },
 ]
